@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    padding: 4rem;
+
+    header {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 1.6rem;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            gap: 3.2rem;
+
+            a {
+                cursor: pointer;
+                text-decoration: none;
+                color: #C4C4CC;
+                line-height: 2.1rem;
+                font-size: 1.6rem;
+                transition: all 0.3s ease;
+            }
+
+            a:hover {
+                color: white;
+                font-weight: bold;
+            }
+
+            a:nth-child(1) {
+                margin-left: 3.2rem;
+            }
+        }
+    }
+
+    .home {
+        margin-top: 17.2rem;
+        align-items: center;
+
+        h1 {
+            line-height: 12.5rem;
+            font-size: 4.8rem;
+        }
+
+        button {
+            padding: 1.2rem 3.2rem;
+            border-radius: .4rem;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+
+    .universo {
+        h1 {
+            margin-top: 6.3rem;
+            line-height: 12.5rem;
+            font-size: 4.8rem;
+        }
+
+        p {
+            color: #E1E1E6;
+            font-size: 1.8rem;
+            max-width: 64.8rem;
+        }
+    }
+
+    .exploracao {
+        h1 {
+            margin-top: 6.3rem;
+            line-height: 12.5rem;
+            font-size: 4.8rem;
+        }
+
+        p {
+            color: #E1E1E6;
+            font-size: 1.8rem;
+            max-width: 64.8rem;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.home-page {
+    background: url(../img/bg1.svg) no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.universo-page {
+    background: url(../img/bg2.svg) no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.exploracao-page {
+    background: url(../img/bg3.svg) no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
